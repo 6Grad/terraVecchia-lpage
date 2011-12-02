@@ -1,0 +1,60 @@
+html {
+  margin:0;
+  padding:0;
+  border:0;
+}
+/* Line-height should always be unitless! */
+body {
+  line-height: 1.5;
+  background: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+/*fb page*/
+.page {
+  width: 520px;
+  height: 100%;
+  position: absolute;
+  background-color:#ffffff;
+}
+
+.page#l {
+  background:#ffffff url('../images/lpage.jpg') no-repeat left top;
+}
+.page#i {
+  background:#ffffff url('../images/ipage.jpg') no-repeat left top;
+}
+
+.link {
+  cursor: pointer;
+  position: absolute;
+  border: 0px solid black;
+}
+
+.link#info {
+  left: 385px;
+  top: 440px;
+  height: 34px;
+  width: 108px;
+}
+
+.link#download {
+  left: 385px;
+  top: 440px;
+  height: 34px;
+  width: 108px;
+}
+
+.link#email {
+  left: 180px;
+  top: 270px;
+  width: 164px;
+  height: 34px;
+}
+
