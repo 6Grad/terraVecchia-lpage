@@ -16,6 +16,10 @@ div {
   margin: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 /*fb page*/
 .page {
   width: 520px;
@@ -25,10 +29,13 @@ div {
 }
 
 .page#l {
-  background:#ffffff url('../images/lpage.jpg') no-repeat left top;
+  background:#ffffff url('../images/lpage.png') no-repeat left top;
 }
 .page#i {
-  background:#ffffff url('../images/ipage.jpg') no-repeat left top;
+  background:#ffffff url('../images/ipage.png') no-repeat left top;
+}
+.page.invisible#i {
+  left: -1000px;
 }
 
 .link {

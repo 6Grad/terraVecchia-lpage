@@ -10,15 +10,17 @@
     <script type="text/javascript">
 
     function showInfo() {
-      fade.in('i');
+			var el = u('i');
+			el.removeClass('invisible');
+			el.fadeIn();
     }
     </script>
   </head>
   <body>
-    <div class="page" id="l" style="">
+    <div class="page" id="l">
       <div class="link" id="info" onclick="showInfo();"></div>
     </div>
-    <div class="page" id="i" style="display: none;">
+    <div class="page invisible" style="opacity: 0;" id="i">
       <a class="link" id="download" target="_blank" 
         href="pdf/broschüre_stationäre_kurzzeittherapie_kehrsatz.pdf"></a>
       <a class="link" id="email" target="_blank"
